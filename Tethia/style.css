@@ -1,0 +1,112 @@
+/* le corps dela page */
+body{
+    font-family: roboto;
+  
+}
+
+/* la barre de navigation */
+nav{
+    float: right;
+    width: 300px;
+     
+}
+ul {
+    
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(167, 161, 161);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Utilisation de class et id sur h1 et P */
+.haut { 
+    font-size: 30px;
+    text-align: center;
+    font-family: roboto;
+}
+
+#contenu {
+    text-align: center;
+}
+/* images gifs */
+    
+#gifs {
+    margin-right: 200px;
+    margin-left: 250px;
+}
+#li {
+    margin-left: 10px;
+    width: 180px;
+    height: 70px;
+}
+/* Changez la couleur du lien au survol*/
+li a:hover {
+    background-color: #4ecf12;
+    color: white;
+}
+
+/* li {
+    border-right: 1px solid #bbb;
+} */
+
+li:last-child {
+    border-right: none;
+}
+
+
+/* bouton */
+button{
+    background-color: white;
+    /* border-radius: 5px; */
+    border: 4px solid #4ecf12;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: #4ecf12;
+    color: white;
+}
+/* mon images */
+#img{
+    width: 280px;
+    transition: transform .1s;
+    float: right;
+    margin-top: 50px;
+    border-radius: 170px;
+    border: 3px solid #4ecf12;
+    
+}   
+/* image logo */
+#logo{
+    width: 150px;
+}
+
+/* h1 */
+#h1{
+    margin-left: 100px;
+    font-size: 70px;
+}
+/* p */
+p{
+    margin-left: 100px;
+}
+/* form bouton */
+form{
+    margin-left: 100px;
+}
